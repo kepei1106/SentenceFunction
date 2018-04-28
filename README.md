@@ -1,2 +1,2 @@
-# SentenceFunction
-Code for the paper at ACL2018
+# Generating Informative Responses with Controlled Sentence Function
+The source code is comming soon.
