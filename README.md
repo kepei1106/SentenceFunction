@@ -1,2 +1,3 @@
 # Generating Informative Responses with Controlled Sentence Function
-The source code will be released in September, 2018. Just wait for a few days!
+
+The first version of codes has been uploaded. I'll fix some details in codes and offer a 
