@@ -18,7 +18,7 @@ This project is a tensorflow implementation of our work.
 
 	Our dataset contains single-turn post-response pairs with corresponding sentence function labels. The sentence function labels of responses have been automatically annotated by a self-attentive classifier.
 
-	Please download the [Chinese Dialogue Dataset with Sentence Function Labels](http://coai.cs.tsinghua.edu.cn/hml/dataset/#commonsense) to data directory.
+	Please download the [Chinese Dialogue Dataset with Sentence Function Labels](http://coai.cs.tsinghua.edu.cn/hml/dataset) to data directory.
 
 * Train
 
