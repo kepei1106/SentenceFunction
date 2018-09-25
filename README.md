@@ -37,15 +37,15 @@ This project is a tensorflow implementation of our work.
 
 You can change the model parameters using:
 
-	--symbols xxx           size of full vocabulary
+	--symbols xxx				size of full vocabulary
 	--topic_symbols xxx			size of topic vocabulary
 	--full_kl_step xxx			parameter of kl annealing
-	--units xxx 				    size of hidden units
-	--embed_units xxx			  dimension of word embedding
-	--batch_size xxx 			  batch size in training process
-	--per_checkpoint xxx 		steps to save and evaluate the model
-	--data_dir xxx				  data directory
-	--train_dir xxx				  training directory
+	--units xxx 				size of hidden units
+	--embed_units xxx			dimension of word embedding
+	--batch_size xxx 			batch size in training process
+	--per_checkpoint xxx 			steps to save and evaluate the model
+	--data_dir xxx				data directory
+	--train_dir xxx				training directory
 
 
 ## Paper
