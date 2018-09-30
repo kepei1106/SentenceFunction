@@ -123,7 +123,7 @@ def gen_batched_data(data):
     encoder_len = max([len(item['post']) for item in data])+1
     decoder_len = max([len(item['response']) for item in data])+1
     
-    posts, responses, posts_length, responses_length, keywords, keywords_length, labels = [], [], [], [], [], [], []
+    posts, responses, posts_length, responses_length, labels = [], [], [], [], []
     def padding(sent, l):
         return sent + ['_EOS'] + ['_PAD'] * (l-len(sent)-1)
         
