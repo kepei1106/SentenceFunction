@@ -153,7 +153,6 @@ def evaluate(model, sess, data_dev):
     loss = np.zeros((1, ))
     kl_loss, dec_loss, dis_loss = np.zeros((1, )), np.zeros((1, )), np.zeros((1, ))
     st, ed, times = 0, FLAGS.batch_size, 0
-    latent_z, pred_class = [], []
     while st < len(data_dev):
         selected_data = data_dev[st:ed]
         batched_data = gen_batched_data(selected_data)
@@ -170,7 +169,6 @@ def evaluate(model, sess, data_dev):
     dis_loss /= times
     show = lambda a: '[%s]' % (' '.join(['%.2f' % x for x in a]))
     print('perplexity on dev set: %s  kl_loss: %s  dec_loss: %s  dis_loss: %s ' % (show(np.exp(dec_loss)), show(kl_loss), show(dec_loss), show(dis_loss)))
-    return latent_z, pred_class
 
 
 def inference(model, sess, posts, label_no):
